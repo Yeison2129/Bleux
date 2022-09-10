@@ -1,0 +1,582 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  background-color: #1e172f;  /*2e2550 */
+  justify-content: space-around;
+  
+}
+header a{
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo{
+  display: flex;
+
+}
+
+.barra{
+  display: flex;
+  align-items: center;
+  width: 220px;
+  justify-content: space-evenly;
+  width: 30%;
+  font-size: 19px;
+  
+  
+}
+
+.barra button{
+  display: flex;
+  height: 40px;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+  background: linear-gradient(to right,#8640D5,#047ED5 );
+  border-radius: 8px ;
+  color:rgb(13, 13, 13);
+  border: none;
+  color: #fff;
+}
+
+.about{
+  color: #fff;
+}
+.hola{
+  color:#7C7785
+  
+}
+
+.arriba{
+  display: flex;
+  font-size: 25px;
+  height:70vh;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.arriba h1{
+  font-size: 80px;
+  color:#fff;
+  
+  
+}
+
+.izquierda{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  background-color:#2E2550;  
+}
+
+.izquierda h1{
+  margin-left: 200px;
+  color:#fff;
+}
+
+.texto1{
+  margin-left: 200px;
+  color: #fff;
+}
+
+.botones{
+  margin-left: 200px;
+  border:solid 1px gray;
+  width: 34%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  
+  
+  
+}
+
+.descargar{
+  height: 40px;
+  width: 150px;
+  color:#f41486;
+  border-radius: 5px;
+  border-color: #fff;
+  background-color: #fff;
+  margin-top: 3px;
+  margin-left: 7px;
+}
+
+.features{
+  height: 40px;
+  border-radius: 5px;
+  width: 150px;
+  background-color: #2E2550;
+  color: #fff;
+  border-color: #fff;
+
+}
+
+.derecha{
+  display: flex;
+  background-image: url("../img/gran-fondo-hojas-verdes-tropicales_52683-36490.jpg");
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  
+  
+}
+ 
+.derecha img{
+  width: 21%;
+  margin-right: 54%;
+  margin-top: 6%;
+}
+.centro{
+  display: flex;
+  background-color: #f1f2f7;
+  justify-content: space-evenly;
+  align-items: center;
+  
+
+}
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 43px;
+  color: #f41486;
+  background-color: #f1f2f7;
+  padding-top: 2%;
+}
+
+.izquierda2{
+  display: flex;
+  width:50%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  height: 500px ;
+}
+
+.izquierda2 img{
+  display: flex;
+  width: 59%;
+  justify-content: center;
+  align-items: center;
+  margin-right: -33%;
+}
+
+.derecha2{
+   display: flex;
+   flex-direction: column;
+   width:23%;
+   margin-right: 20%;
+}
+
+.titulo2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #f41486;
+}
+
+.minimenu h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -210px;
+  color: #f41486;
+  
+}
+
+.minimenu {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.minimenu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.minimenu li{
+  background: url('../img/cheque.png') no-repeat left center;
+  height: 30px;
+  padding-left: 18px;
+  
+}
+
+.texto p{
+  color: black;
+  margin-top: 40px;
+  margin-left: 47px;
+  font-size: 17px;
+  width: 334px ;
+}
+
+.minimenu p{
+  color:black;
+  margin-left: 47px;
+}
+
+.abajo{
+  display: flex;
+  background-color: #1e172f;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.titulo3{
+  display: flex;
+  font-size: 43px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.textoabajo{
+  color: #fff;
+  width: 60%;
+}
+
+.tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.tarjeta{
+  display: flex;
+  background-color: #fff;
+  margin-top: 30px;
+  width: 20%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cabeza{
+  display: flex;
+  align-items: center;
+  color: #f41486;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.cabeza2{
+  display: flex;
+  align-items: center;
+  color: #45068d;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+
+.precio{
+  display: flex;
+  background-color:rgba(224, 215, 215, 0.959);
+  justify-content: center;
+  font-size: 60px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+  Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 20px;
+}
+
+.estado{
+  font-size:30px;
+  color: rgb(151, 148, 148); 
+
+}
+
+.contenido{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(39, 37, 37); 
+  margin-top: 40px;
+  font-size: 25px;
+  
+}
+
+.texto3{
+ display: flex;
+ margin-top: 10px;
+ width: 80%;
+ margin-top: 40px;
+ font-size: 20px;
+}
+
+.cajaboton{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: rgba(221, 208, 208, 0.959);
+  height: 60px;
+ 
+}
+
+.suscribete{
+ display: flex;
+ width: 200px;
+ height: 45px;
+ align-items: center;
+ justify-content: center; 
+ margin-top: 2%;
+ background: linear-gradient(to right,#EB66AB,#f41486 );
+ color: #fff;
+ border-radius:10px;
+ border-color: none;
+ 
+}
+.suscribete2{
+  display: flex;
+  width: 200px;
+  height: 45px;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 2%;
+  background-color: #45068d;
+  color: #fff;
+  border-radius:10px;
+  border-color: none;
+  
+ }
+#footer{
+  margin-top:50px;
+}
+.contenidofooter{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.textofooter{
+ display: flex;
+ font-size: 100px;
+ 
+
+}
+.rosa{
+  color: #f41486;
+}
+
+.iconospadre{
+  display: flex;
+  flex-wrap: wrap;
+
+
+ 
+}
+.icono{
+  width: 35px;
+  height: 35px;
+  justify-content: space-evenly;
+}
+
+.iconofooter{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width:600px){
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+   
+  }
+  .barra{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: 200px;
+  }
+
+  .arriba{
+    display: flex;
+    height: 410px;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .izquierda h1{
+    font-size: 50px;
+    margin-left: 20px;
+  }
+
+
+  .izquierda{
+    display: flex;
+    font-size: 10px;
+    width: 100%;
+    align-items: center;
+    
+    
+  }
+
+  .texto1{
+    margin-left: 20px;
+  }
+   
+  .botones{
+    display: flex;
+    margin-left: 20px;
+    width: 270px;
+    justify-content: space-evenly;
+    
+  }
+
+  .descargar{
+    width: 120px;
+  }
+
+  .features{
+    width: 120px;
+  }
+
+  .texto{
+    display: flex;
+    
+  }
+
+  .derecha{
+    display: flex;
+    width: 100%;
+  }
+
+  .derecha img{
+    display: flex;
+    width: 90px;
+    margin-right: -35px;
+  }
+
+  .centro{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+
+  }
+
+  .titulo{
+    display: flex;
+    font-size: 25px;
+    width: 100%;
+    
+  }
+
+  .izquierda2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-right: 0%;
+  }
+
+  .derecha2{
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    
+  }
+
+  .texto{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  
+
+  .texto p{
+    display: flex;
+  }
+
+  .minimenu h3{
+    display: flex;
+    font-size: 30px;
+  }
+
+  .minimenu ul{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    flex-direction: column;
+  }
+
+  .minimenu li{
+    display: flex;
+    height: 70px;
+    font-size: 20px;
+  }
+
+  .abajo{
+    display: flex;
+    width: 100%;
+  }
+
+  .titulo3{
+    display: flex;
+    font-size: 25px;
+    margin: 0%;
+    
+  }
+
+  .textoabajo{
+    display: flex;
+    width: 80%;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .tarjeta{
+    display: flex;
+    width: 300px;
+  }
+
+  .contenidofooter{
+    display: flex;
+    width: 100%;
+  }
+
+  .Textofooter {
+    display: flex;
+    font: size 4px;
+  }
+
+  .icono{
+    height: 20px;
+    width: 20px
+    ;
+  }
+
+  
+
+
+}
+
+
+@media (min-width:350px){
+
+
+}
